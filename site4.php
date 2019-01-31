@@ -8,13 +8,20 @@
 </head>
 <body>
     <h3>Addition</h3>
-    <form action="calc.php" method="get">
+    <form action="site4.php" method="get">
     <input type="number" name="num1">
     <br>
     <input type="number" name="num2">
     <br>
     <input type="submit">
     </form>
-    Answer: <?php echo $_GET["num1"] + $_GET["num2"]?>
+
+
+    Answer: <?php 
+    echo $_GET["num1"] + $_GET["num2"];
+    ?>
+
+
+
 </body>
 </html>
