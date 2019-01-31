@@ -9,11 +9,17 @@
 </head>
 <body>
 
-    <form action="site7.php" method="post" class="form-group m-5">
+<div class="container m-5">
+    <!-- <form action="site7.php" method="post" class="form-group m-5">
         Apples: <input type="checkbox" name="fruits[]" value="apples"> <br>
         Oranges: <input type="checkbox" name="fruits[]" value="oranges"> <br>
         Pears: <input type="checkbox" name="fruits[]" value="pears"> <br>
         <input class="btn btn-outline-success" type="submit"> <br>
+    </form> -->
+
+    <form action="site7.php" class="form-group" method="post">
+        <input class="form-control" type="text" name="name">
+        <input type="submit" class="btn btn-outline-primary">
     </form>
 
     <br>
@@ -28,9 +34,23 @@
         echo count($footballers);
         */
 
-        $fruits = $_POST["fruits"];
-        echo "<ul class='list-group'><li class='list-group-item bg-dark text-white'> $fruits[1] </li></ul>";
+        //$fruits = $_POST["fruits"];
+        //echo "<ul class='list-group'><li class='list-group-item bg-dark text-white'> $fruits[1] </li></ul>";
         //  echo $fruits[2];
+
+        //ASSOSIATIVE ARRAY
+        /*
+        $player = array("Mbappe" => "Fra", "Neymar" => "Bra", "Messi" => "Arg");
+        $player['Mbappe'] = "Fr";
+        // echo $player["Mbappe"];
+        echo count($player);*/
+
+
+        $player = array("Mbappe" => "Fra", "Neymar" => "Bra", "Messi" => "Arg");
+        echo $player[$_POST["name"]];
+
     ?>
+</div>
+
 </body>
 </html>
