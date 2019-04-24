@@ -31,5 +31,17 @@
         echo "This is $charecterIsMale a boy. 1 means true <br/>";
         echo $charecterSpeech;
     ?>
+
+
+<hr style="border-bottom: 10px solid green;">
+
+<hr>
+    <?php 
+    // <!-- PRINTING SOME VARIABLE -->
+    $name = "Cristiano Ronaldo";
+    $club = " Juventus";
+    ?>
+
+    <h4><?php echo $name, $club ?></h4>
 </body>
 </html>

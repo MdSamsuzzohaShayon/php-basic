@@ -14,7 +14,8 @@
     <title>Php file</title>
 </head>
 <body>
-    <h1> <?php echo "Hello world From php" ?> </h1>
+    
+    <h2><?php echo "This is from php file" ?></h2>
     <h1> There are some more files </h1>
     <ul>
         <li>basic/site.php</li>
