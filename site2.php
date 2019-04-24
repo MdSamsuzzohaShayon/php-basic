@@ -21,6 +21,7 @@
         // echo strtoupper("This gonna be upper");
         // echo strlen($toLower);
         // echo $toLower[0];
+        echo convert_uudecode("+22!L;W9E(%!(4\"$`\n`");
 
         // $toLower[0] = "O";
         // echo $toLower;
