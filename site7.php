@@ -30,7 +30,7 @@
         // example: integer, string, boolean
         $footballers = array("Messi", "Neymar", "Ronaldo", "Mbappe", "Grizmann");
         $footballers[6] = 4000;
-        // echo $footballers[6];
+        echo $footballers[6];
         echo count($footballers);
         */
 

@@ -14,7 +14,7 @@
         <input class="btn btn-outline-success" value="submit" type="submit">
     </form> -->
     <form class="form-group" action="site6.php" method="post">
-        <input class="form-control" type="password" name="password" placeholder="Password">
+        <input class="form-control" type="password" name="password" placeholder="Password decoded">
         <input class="btn btn-outline-success" value="submit" type="submit">
     </form>
 
