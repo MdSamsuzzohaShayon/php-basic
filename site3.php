@@ -10,12 +10,18 @@
     <form action="site3.php" method="get">
         Name: <input type="text" name="name">
         Age: <input type="number" name="age">
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="Female">Female</option>
+        </select>
         <input type="submit">
     </form>
     <br>
 
-    Your name is: <?php echo $_GET["name"] ?>    
-    Your age is: <?php echo $_GET["age"] ?>    
+    Your name is: <?php echo $_GET["name"] ?>  <br>  
+    Your age is: <?php echo $_GET["age"] ?>  <br>
+    you are <?php echo $_GET["gender"] ?>
+
 
 </body>
 </html>
