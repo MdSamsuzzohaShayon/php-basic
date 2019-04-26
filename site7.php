@@ -19,10 +19,16 @@
 
     <form action="site7.php" class="form-group" method="post">
         <input class="form-control" type="text" name="name">
-        <input type="submit" class="btn btn-outline-primary">
+        <input type="submit" class="btn btn-outline-primary btn-block">
     </form>
 
     <br>
+
+    <hr>
+    <form action="site7.php" class="form-group" method="post">
+        <input type="text" placeholder="Enter your favrite team from UCL" class="form-control" name="ucl_team">
+        <input type="submit" class="btn btn-outline-primary btn-block">
+    </form>
     <?php 
     
         /*
@@ -48,6 +54,10 @@
 
         $player = array("Mbappe" => "Fra", "Neymar" => "Bra", "Messi" => "Arg");
         echo $player[$_POST["name"]];
+
+        
+        $ucl = array("Roma"=> "Seria A", "Barcelona"=>"La liga", "Real Madrid"=> "La liga", "PSG"=> "League One");
+        echo $ucl[$_POST["ucl_team"]];
 
     ?>
 </div>
