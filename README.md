@@ -1,29 +1,38 @@
-# PHP Rest API
+# PDO
 
- - [Http headers](https://www.php.net/manual/en/function.header.php)
- - [Http Cors from mdn](https://developer.mozilla.org/en-US/docs/Web/HTTP/Server-Side_Access_Control)
- - Show data with this url from post man make a get request
- - ```http://localhost/blog-rest-api/api/post/read.php```
- - get single post ```http://localhost/blog-rest-api/api/post/read_single.php?id=2```
- - Post though postman
+[Official docs](https://www.php.net/manual/en/book.pdo.php)
+[Youtube Tutorials](https://www.youtube.com/watch?v=kEW6f7Pilc4&t=482s)
 
- ![Create post though postman](screenshots/s_1.png)
+[SQL Query from broad tutorial](https://github.com/MdSamsuzzohaShayon/php-sql-uclteam-crud/blob/4_single_record_dlt_finish/MYSQL.md)
+[SQL query from w3school](https://www.w3schools.com/sql/);
 
- ![Create post though postman](screenshots/s_2.png)
+![S one](screenshots/s_1.png)
 
- - update post
+![S two](screenshots/s_2.png)
 
- ![update post though postman](screenshots/s_3.png)
+![S three](screenshots/s_3.png)
 
- - make a get request with the url below
- ```http://localhost/blog-rest-api/api/post/read_single.php?id=4```
+![S four](screenshots/s_4.png)
 
- - delete post
 
- ![Delete post though postman](screenshots/s_4.png)
 
- ![Delete post though postman](screenshots/s_5.png)
+ - Create a project with **index.php** for output 
+ - create a db
+ - Create a table
+ - from posts create id, A_I, title, body, author, is_published, created_at
 
- - make a get request to ```http://localhost/blog-rest-api/api/category/read.php```
+![creating table](screenshots/s_5.png)
 
- - make another get req to ```http://localhost/blog-rest-api/api/category/read.php```
+ - [Runtime configurations](https://www.php.net/manual/en/pdo.configuration.php)
+ - [DB setup in **php** file](https://www.php.net/manual/en/pdo.construct.php)
+ - [set pro attribute](https://www.php.net/manual/en/pdo.setattribute.php)
+ - [PDO query](https://www.php.net/manual/en/pdo.query.php)
+ - [PDO fetch objects](https://php.net/manual/en/pdostatement.fetch.php)
+ - [prepare](https://www.php.net/manual/en/pdo.prepare.php)
+ - [Prepared statements and stored procedures ](https://www.php.net/manual/en/pdo.prepared-statements.php)
+ - Insert few post with all requirement
+
+![S six](screenshots/s_6.png)
+
+ - [Dumps information about a variable](https://www.php.net/manual/en/function.var-dump.php);
+ - 
